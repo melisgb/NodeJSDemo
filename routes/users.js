@@ -10,7 +10,7 @@ router.get('/add', function(req, res, next){
         host : '127.0.0.1',
         user : 'root',
         password : '',
-        database : 'instasocial',
+        database : 'instasocial'
     }
 
     var connection = mysql.createConnection(config);
